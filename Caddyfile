@@ -1,0 +1,9 @@
+{
+    debug
+    order visitor_ip before respond
+}
+
+:2021 {
+    visitor_ip stdout
+    respond "zliu's server"
+}
